@@ -1,6 +1,10 @@
-# FeralHeart Game Client and Server Source Code
+# FeralHeart Clone Game Client and Server Source Code
 
-FeralHeart is a free-to-play, 3D online multiplayer roleplaying game developed and released by KovuLKD in 2011 as the successor of another game called Impressive Title. For over a decade the game has been closed-source with the original Feralheart game and multiple spin-offs created with permission from Kovu, who had left code responsibility to a game community member named Vaynrat. With careful consideration and full permission from Vaynrat and KovuLKD himself, we have decided to open-source the original codebase.
+FeralHeart is a free-to-play, 3D online multiplayer roleplaying game developed and released by KovuLKD in 2011 as the successor of another game called Impressive Title. For over a decade the game has been closed-source with the original FeralHeart game and multiple spin-offs created with permission from KovuLKD. This code is a recreation of the FeralHeart source code, originally released by community member Vaynrat with permission from KovuLKD.
+
+This code is NOT 1:1 the original version of KovuLKD's FeralHeart source code, and is rather a recreation that might be hybridized code- as has been discovered by Phloxenfree and Bingus- full credit to them for pointing this out.
+
+This version of the code also contains patches for security vulnerabilities that had been discovered, as well.
 
 This repository contains FeralHeart’s Windows (Win32) C++ codebase for running a FeralHeart-style game client and a trio of servers (front, main, map). It is provided to enable community duplication and learning, including running your own private FeralHeart-compatible game for personal or community use subject to the Acceptable Use Policy and license terms below. This repository contains source code only; third‑party SDKs and game assets are not included.
 
@@ -10,6 +14,7 @@ Important notices, acceptable use, and third‑party license details are include
 ## IMPORTANT NOTICES
 
 This codebase is being released without a full build compilation setup. Not all of these instructions may work for you, but the codebase includes everything that is technically necessary to duplicate and create a new FH instance. This is a complex project and it will take strong commitment if an individual decides they wish to deploy their own FeralHeart game client and server. The following instructions are non-exhaustive and more work may be needed to ready a FH game client and server.
+
 
 
 ## Repository structure
